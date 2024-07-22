@@ -1,0 +1,23 @@
+.wallets-compare-accounts-title-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 2rem;
+    align-items: center;
+
+    &__separator {
+        display: flex;
+        align-items: center;
+        gap: 0.8em;
+    }
+
+    &__tooltip {
+        transform: translateX(-80%);
+
+        .wallets-tooltip__arrow {
+            &--bottom {
+                margin-left: 60%;
+            }
+        }
+    }
+}
